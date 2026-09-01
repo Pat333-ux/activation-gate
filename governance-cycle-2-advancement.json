@@ -1,0 +1,34 @@
+{
+  "eventType": "GOVERNANCE_CYCLE_ADVANCED",
+  "from": 1,
+  "to": 2,
+  "timestamp": 1725193231000,
+  "eventDetails": {
+    "cycleCompletion": {
+      "validated": true,
+      "proposalQueueProcessed": true,
+      "resolutionQueueProcessed": true,
+      "auditTrailComplete": true,
+      "noPendingTasks": true
+    },
+    "cycleReset": {
+      "proposals": [],
+      "resolutions": [],
+      "auditTrailEntry": {
+        "event": "CYCLE_ADVANCED",
+        "from": 1,
+        "to": 2,
+        "timestamp": 1725193231000
+      }
+    },
+    "deterministicModules": {
+      "status": "rebound",
+      "rebindTime": 1725193231000
+    },
+    "workflowRuntime": {
+      "status": "reinitialized",
+      "reinitTime": 1725193231000
+    }
+  },
+  "status": "CYCLE_2_ACTIVE"
+}
