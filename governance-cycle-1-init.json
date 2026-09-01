@@ -1,0 +1,27 @@
+{
+  "eventType": "GOVERNANCE_CYCLE_INITIALIZED",
+  "cycle": 1,
+  "timestamp": 1725193218000,
+  "eventDetails": {
+    "genesisState": {
+      "loaded": true,
+      "snapshotPath": "activation-snapshot.json",
+      "ledgerPath": "genesis-ledger.json"
+    },
+    "governanceContext": {
+      "cycleNumber": 1,
+      "proposals": [],
+      "resolutions": [],
+      "auditTrail": []
+    },
+    "deterministicModules": {
+      "status": "bound",
+      "bindTime": 1725193218000
+    },
+    "governanceLoop": {
+      "status": "active",
+      "startTime": 1725193218000
+    }
+  },
+  "status": "INITIALIZED"
+}
