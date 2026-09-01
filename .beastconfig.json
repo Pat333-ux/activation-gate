@@ -1,0 +1,26 @@
+{
+  "governance": {
+    "files": [
+      "GOVERNANCE.md",
+      "CONTRIBUTING.md",
+      "CODE_OF_CONDUCT.md",
+      "SECURITY.md"
+    ]
+  },
+  "determinism": {
+    "stateUtilities": [
+      "Deterministic-State-Snapshot-Utility.ts",
+      "Deterministic-State-Merge-Utility.ts",
+      "Deterministic-State-Diff-Utility.ts",
+      "Deterministic-State-Validator.ts"
+    ],
+    "ignoredPaths": [
+      "coverage/",
+      "dist/",
+      ".next/",
+      "node_modules/",
+      ".env.local",
+      "*.log"
+    ]
+  }
+}
