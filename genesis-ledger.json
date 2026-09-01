@@ -1,0 +1,11 @@
+{
+  "genesisTimestamp": 1725193198000,
+  "activationSnapshot": {
+    "governanceComplianceState": "validated",
+    "stateValidation": "passed",
+    "moduleIntegrity": "verified",
+    "deterministicBuild": "confirmed",
+    "orchestrationSealPrecheck": "ready"
+  },
+  "commitHash": "52e72b3b697cbd0118df9f80c7fb040e03c3e6e7"
+}
